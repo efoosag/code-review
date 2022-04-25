@@ -1,0 +1,133 @@
+body {
+
+}
+#navbar {
+  position:fixed;
+  top:0;
+  left:0;
+  width: 200px;
+  height: 100%;
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: lightcyan;
+  padding: 20px;
+}
+#navbar header {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  border-bottom: dotted lightgrey;
+}
+#navbar li {
+  list-style: none;
+  color: green;
+  font-size: 18px;
+  text-align: left;
+  padding: 20px 0;
+}
+#navbar a {
+  text-decoration: none;
+  color: #666666;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 250px;
+  padding: 40px;
+  
+}
+#main-doc header {
+  font-size: 30px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+section article {
+  margin: 20px;
+  font-family: Lato;
+  line-height: 1.5;
+  color: #666666;
+}
+section article p {
+  padding-bottom: 10px;
+}
+section li {
+  margin: 15px 0px 0px 20px;
+  
+}
+code {
+  margin-left: 20px;
+  background: lightcyan;
+  padding: 5px;
+  color: #333;
+}
+@media only screen and (max-width: 815px) {
+  #main-doc {
+    position: relative;
+  }
+}v
+
+body {
+
+}
+#navbar {
+  position:fixed;
+  top:0;
+  left:0;
+  width: 200px;
+  height: 100%;
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: lightcyan;
+  padding: 20px;
+}
+#navbar header {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  border-bottom: dotted lightgrey;
+}
+#navbar li {
+  list-style: none;
+  color: green;
+  font-size: 18px;
+  text-align: left;
+  padding: 20px 0;
+}
+#navbar a {
+  text-decoration: none;
+  color: #666666;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 250px;
+  padding: 40px;
+  
+}
+#main-doc header {
+  font-size: 30px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+section article {
+  margin: 20px;
+  font-family: Lato;
+  line-height: 1.5;
+  color: #666666;
+}
+section article p {
+  padding-bottom: 10px;
+}
+section li {
+  margin: 15px 0px 0px 20px;
+  
+}
+code {
+  margin-left: 20px;
+  background: lightcyan;
+  padding: 5px;
+  color: #333;
+}
+@media only screen and (max-width: 815px) {
+  #main-doc {
+    position: relative;
+  }
+}
