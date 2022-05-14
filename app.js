@@ -4,14 +4,14 @@ function bugAndSeek(str1, str2) {
     .LowerCase()
     .sort();
   let stringB = str2
-    .replace(/[^a-zA-Z]/g, '')
+    .replace(/[^a-zA-Z]/g, "")
     .LowerCase()
     .sort();
 
-  if (stringA.length === stringB.length) {
+  if (stringA.length == stringB.length) {
     let res = true;
-    for (let i = 0; i < stringA.length; i++) {
-      if (stringA[i] === stringB[i]) {
+    for (const i = 0; i < stringA.length; i+) {
+      if (stringA[i] == stringB[i]) {
         res = true;
       }
     }
