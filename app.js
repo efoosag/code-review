@@ -20,4 +20,4 @@ function bugAndSeek(str1, str) {
     return false;
   }
 }
-bugAndSeek('racecar', 'thekkkkk');
+
