@@ -1,4 +1,4 @@
-function bugAndSeek(str1, str2) {
+function bugAndSeek(str1, str) {
   let stringA = str1
     .replace(/[^a-zA-Z]/g, '')
     .LowerCase()
